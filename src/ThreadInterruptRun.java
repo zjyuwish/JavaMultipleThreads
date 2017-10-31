@@ -1,10 +1,10 @@
 
 public class ThreadInterruptRun {
 	public static void main(String[] args) {
-//		try {
+		try {
 			MyThreadShareVariables thread = new MyThreadShareVariables();
 			thread.start();
-			
+			Thread.sleep(1000);
 			thread.interrupt();
 			
 			// interrupted都是判断当前线程是否中断，当前线程是main,执行后将状态标志值清楚为false的功能
@@ -20,11 +20,12 @@ public class ThreadInterruptRun {
 //			System.out.println("Thread Is stopped 1? =" + thread.interrupted());
 //			System.out.println("Thread Is stopped 1? =" + thread.interrupted());
 //			System.out.println("Thread Is stopped 2? =" + Thread.interrupted());
-//		}
-//		catch(InterruptedException e) {
-//			System.out.println("main catch");
+		}
+		catch(InterruptedException e) {
+			//System.out.println("IS stopped 3? =" + Thread.isInterrupted());
+			System.out.println("main catch");
 //			e.printStackTrace();
-//		}
+		}
 		System.out.println("end!");
 	}
 }
