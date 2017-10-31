@@ -14,6 +14,14 @@ public class MyThreadShareVariables extends Thread {
 			count--;
 			System.out.println("由 " + this.currentThread().getName() + " 计算, count=" + count);
 		}
+		try {
+			Thread.sleep(200);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			System.out.println("IS stopped 1? =" + 	Thread.currentThread().isInterrupted());
+		//	e.printStackTrace();
+		}  
+		
 	}
 	
 }

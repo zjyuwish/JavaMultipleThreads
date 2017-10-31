@@ -1,7 +1,8 @@
-#Mon Oct 30 16:59:21 CST 2017
+#Tue Oct 31 10:05:29 CST 2017
 eclipse.preferences.version=1
 encoding//src/HolderMain.java=UTF-8
 encoding//src/MyThreadNoShareVariables.java=UTF-8
 encoding//src/MyThreadShareVariables.java=UTF-8
 encoding//src/RunCountOperate.java=UTF-8
 encoding//src/Task.java=UTF-8
+encoding//src/ThreadInterruptRun.java=UTF-8
