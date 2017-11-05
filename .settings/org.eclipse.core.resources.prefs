@@ -1,4 +1,4 @@
-#Sun Nov 05 09:52:11 CST 2017
+#Sun Nov 05 18:15:18 CST 2017
 eclipse.preferences.version=1
 encoding//src/HolderMain.java=UTF-8
 encoding//src/MyThreadInterruptFor.java=UTF-8
@@ -27,3 +27,6 @@ encoding//src/section2_2_13/PublicClass.java=UTF-8
 encoding//src/section2_2_9/Service.java=UTF-8
 encoding//src/section2_3_4/MyThread.java=UTF-8
 encoding//src/section2_3_5/AddCountThread.java=UTF-8
+encoding//src/section2_3_6/MyService.java=UTF-8
+encoding//src/section2_3_7/Run.java=UTF-8
+encoding//src/section3_1_4/Service.java=UTF-8
