@@ -1,5 +1,5 @@
 package section3_1_4;
-//wait被执行后 锁自动释放 而sleep 不会释放 notify也不释放
+//wait被执行后 锁自动释放 notify必须执行notify方法所在的同步synchronized代码块才释放锁
 public class Service {
 	public void testMethod(Object lock) {
 		try {
