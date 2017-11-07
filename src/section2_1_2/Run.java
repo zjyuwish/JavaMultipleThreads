@@ -7,5 +7,6 @@ public class Run {
 		athread.start();
 		ThreadB bthread = new ThreadB(numRef);
 		bthread.start();
+		System.out.println("hello world");
 	}
 }
