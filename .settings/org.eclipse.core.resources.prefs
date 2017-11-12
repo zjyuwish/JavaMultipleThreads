@@ -1,4 +1,4 @@
-#Wed Nov 08 16:00:08 CST 2017
+#Sun Nov 12 15:27:20 CST 2017
 eclipse.preferences.version=1
 encoding//src/FailfastExample/FailFastTest.java=UTF-8
 encoding//src/HolderMain.java=UTF-8
@@ -34,3 +34,4 @@ encoding//src/section3_1_4/Service.java=UTF-8
 encoding//src/section3_2_5/Run.java=UTF-8
 encoding//src/section3_3_2_1/Run.java=UTF-8
 encoding//src/section4_1_3/MyService.java=UTF-8
+encoding//src/section7_6_2/MyThreadGroup.java=UTF-8
